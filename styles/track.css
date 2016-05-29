@@ -1,0 +1,122 @@
+.add-test-container {
+    display: flex;
+    align-items: center;
+}
+
+.new-tests-container {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div[mode="landscape"]{
+    width: 165px !important;
+    height: 330px !important;
+}
+
+.add-new-test {
+    height: 350px;
+    width: 300px;
+    border: 1px solid #C0DCE4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.new-test-name {
+    height: 40px;
+    width: 300px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.add-new-test-btn, .save-btn {
+    width: 100px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.testsanimate-enter {
+    opacity: 0.01;
+}
+
+.testsanimate-enter.testsanimate-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.testsanimate-leave {
+    opacity: 1;
+}
+
+.testsanimate-leave.testsanimate-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}
+
+.test-name {
+    height: 40px;
+    background-color: #677077;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.tests-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.test {
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 350px;
+    width: 300px;
+    border: 1px solid #C0DCE4;
+    overflow-y: auto;
+}
+
+.test-header {
+    display: flex;
+    background-color: #677077;
+}
+
+.test-header div {
+    height: 30px;
+    display: flex;
+    flex-grow: 1;
+    background-color: #b5b5b7;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.subjects-container {
+    display: flex;
+}
+
+.subjects-container input {
+    height: 30px;
+    border: 1px solid lightgray;
+    width: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subject-add-btn {
+    height: 30px;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.subjects {
+    display: flex;
+    justify-content: space-between;
+}

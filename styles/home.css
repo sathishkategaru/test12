@@ -1,0 +1,19 @@
+.home {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.home a {
+	text-decoration: initial;
+	color: white;
+}
+.home .options {
+    height: 100px;
+    width: 200px;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(64, 96, 101, 0.39);
+}
